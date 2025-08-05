@@ -118,8 +118,11 @@ h2 {
 
 .movie-session img {
     width: 100%;
+    min-width: 310px;
+    min-height: 140px;
     height: 140px;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .movie-session h2 {
